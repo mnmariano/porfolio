@@ -1,0 +1,57 @@
+*{
+margin:0;
+padding:0;
+
+}
+body{
+    background-color: antiquewhite;
+}
+
+    /*GRADIANTES*/
+    /*background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(174,174,215,0.6934306569343065) 35%, rgba(0,212,255,1) 100%);
+*/
+
+h1{
+    text-align: center;
+}
+
+div{
+    margin:25px;
+    padding:10px;
+    border:1px solid black;
+    box-sizing: border-box;
+    
+
+
+}
+
+footer{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+   /* flex-direction: column-reverse;*/
+  
+   justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    align-content: space-around;
+}
+#caja1, #caja2, #caja3,#caja4,#caja5,#caja6 {
+
+    background-color: red;
+    border: 2px solid black;
+    width:200px;
+
+}
+section{
+    padding:50px;
+    margin: 20px;
+}
+article{
+
+    border: 3px solid rgba(82, 99, 90, 0.897);
+    padding:50px;
+    margin:20px;
+}
